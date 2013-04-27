@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at MonExp.v(66): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at MonExp.v(26): object "S0" differs only in case from object "s0" in the same scope

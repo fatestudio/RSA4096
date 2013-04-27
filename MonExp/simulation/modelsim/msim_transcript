@@ -1,0 +1,165 @@
+# Reading D:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do MonExp_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/MonExp {D:/altera/12.1sp1/MonExp/_parameter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/MonExp {D:/altera/12.1sp1/MonExp/monexp.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonExp
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(47): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(105): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(124): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(125): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(143): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(176): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(177): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(193): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(194): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(223): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(285): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(286): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(304): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(305): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(323): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(356): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(357): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(373): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(374): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(400): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(457): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(458): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(476): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(477): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(495): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(528): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(529): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(545): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(546): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(572): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(607): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(628): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(651): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(652): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(670): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(671): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(689): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(722): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(723): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(739): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(740): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonExp/monexp.v(766): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	MonExp
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/MonExp {D:/altera/12.1sp1/MonExp/mul_add.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# 
+do MonExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonExp_tb
+# 
+# Top level modules:
+# 	MonExp_tb
+# vsim work.MonExp_tb 
+# Loading work.MonExp_tb
+# Loading work.MonExp
+# Loading work.mul_add
+# SymInitialize: (null)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: fatestudio  Hostname: FATESTUDIO-PC  ProcessID: 13224
+# 
+#           Attempting to use alternate WLF file "./wlft9iy3v7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft9iy3v7
+# 
+# Exp_state=ES0	In State S6!
+# e_in[          0][          7] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           7
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           6
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           5
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           4
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           3
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES3	In State S6!

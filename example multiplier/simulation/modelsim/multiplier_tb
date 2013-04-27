@@ -1,0 +1,36 @@
+`include "multiplier.v"
+module multiplier_tb();
+  reg clock
+  reg [WIDTH-1:0] dataa,
+  reg [WIDTH-1:0] datab,
+  reg [WIDTH-1:0] dataoutl,
+  reg [WIDTH-1:0] dataouth,
+ 
+// Initialize all variables
+initial begin        
+  $display ("My Multiplier");	
+  $monitor ("%g\t%b\t%d\t%d\t%d", 
+	  $time, clock, dataa, datab, counter_out);	
+  clock = 1;       // initial value of clock
+  dataa = 0;       // initial value of reset
+  datab = 0;      // initial value of enable
+  #5 dataa = 10;    // Assert the reset
+  #10 datab = 30;   // De-assert the reset
+  #50 $finish;      // Terminate simulation
+end
+
+// Clock generator
+always begin
+  #5 clock = ~clock; // Toggle clock every 5 ticks
+end
+
+// Connect DUT to test bench
+multiplier U_counter (
+clock,
+dataa,
+datab,
+dataoutl,
+dataouth
+);
+
+endmodule

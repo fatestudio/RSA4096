@@ -1,0 +1,43 @@
+# Reading D:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do file_readmemh_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/file_readmemh {D:/altera/12.1sp1/file_readmemh/file_readmemh.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module file_readmemh
+# ** Warning: D:/altera/12.1sp1/file_readmemh/file_readmemh.v(22): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	file_readmemh
+# 
+vlog -reportprogress 300 -work work D:/altera/12.1sp1/file_readmemh/simulation/modelsim/file_readmemh_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module file_readmemh_tb
+# 
+# Top level modules:
+# 	file_readmemh_tb
+vsim rtl_work.file_readmemh_tb
+# vsim rtl_work.file_readmemh_tb 
+# Loading rtl_work.file_readmemh_tb
+# Loading rtl_work.file_readmemh
+# SymInitialize: (null)
+run
+# rdata:
+#           0:12abc
+#           1:0ffff
+#           2:1dead
+#           3:2bee1
+# ndata:
+#           0:44c5b476
+#           1:3fe31d03
+#           2:47fc816a
+#           3:c16e2284

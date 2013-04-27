@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\12.1sp1\file_readmemh\simulation\modelsim
+vfile_readmemh
+ISAdQ13_EWRf8ci8WgQDjZ0
+V>4U`k[hck:VJcb?QBH3SU0
+Z1 dD:\altera\12.1sp1\file_readmemh\simulation\modelsim
+w1366911275
+8D:/altera/12.1sp1/file_readmemh/file_readmemh.v
+FD:/altera/12.1sp1/file_readmemh/file_readmemh.v
+L0 4
+Z2 OV;L;10.1b;51
+r1
+31
+o-vlog01compat -work work -O0
+!i10b 1
+!s100 3>edVlYCMXSO>oV`6fcge1
+!s85 0
+!s108 1366911386.085000
+!s107 D:/altera/12.1sp1/file_readmemh/file_readmemh.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/12.1sp1/file_readmemh|D:/altera/12.1sp1/file_readmemh/file_readmemh.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/altera/12.1sp1/file_readmemh -O0
+vfile_readmemh_tb
+!i10b 1
+!s100 aglc?0:ZN;K_1nY387aFa1
+ISTnHZ<L1^Lk5eeYGMCb6F3
+VO[PbiT<=^Tb?;7JN]f:Fk3
+R1
+w1366898395
+8D:/altera/12.1sp1/file_readmemh/simulation/modelsim/file_readmemh_tb.v
+FD:/altera/12.1sp1/file_readmemh/simulation/modelsim/file_readmemh_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1366911393.716000
+!s107 D:/altera/12.1sp1/file_readmemh/simulation/modelsim/file_readmemh_tb.v|
+!s90 -reportprogress|300|-work|work|D:/altera/12.1sp1/file_readmemh/simulation/modelsim/file_readmemh_tb.v|
+!s101 -O0
+o-work work -O0

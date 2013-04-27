@@ -1,0 +1,434 @@
+Analysis & Synthesis report for MonExp
+Thu Apr 25 23:30:51 2013
+Quartus II 32-bit Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |MonExp|exp_state
+  9. State Machine - |MonExp|state
+ 10. Registers Removed During Synthesis
+ 11. Removed Registers Triggering Further Register Optimizations
+ 12. General Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Parameter Settings for User Entity Instance: Top-level Entity: |MonExp
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
+ 17. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                       ;
++------------------------------------+-----------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Apr 25 23:30:51 2013         ;
+; Quartus II 32-bit Version          ; 12.1 Build 243 01/31/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; MonExp                                        ;
+; Top-level Entity Name              ; MonExp                                        ;
+; Family                             ; Cyclone II                                    ;
+; Total logic elements               ; 0                                             ;
+;     Total combinational functions  ; 0                                             ;
+;     Dedicated logic registers      ; 0                                             ;
+; Total registers                    ; 0                                             ;
+; Total pins                         ; 2                                             ;
+; Total virtual pins                 ; 0                                             ;
+; Total memory bits                  ; 0                                             ;
+; Embedded Multiplier 9-bit elements ; 0                                             ;
+; Total PLLs                         ; 0                                             ;
++------------------------------------+-----------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C50F484C6       ;                    ;
+; Top-level entity name                                                      ; MonExp             ; MonExp             ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                              ;
++----------------------------------+-----------------+------------------------------+---------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path          ; Library ;
++----------------------------------+-----------------+------------------------------+---------------------------------------+---------+
+; mul_add.v                        ; yes             ; User Verilog HDL File        ; D:/altera/12.1sp1/MonExp/mul_add.v    ;         ;
+; MonExp.v                         ; yes             ; User Verilog HDL File        ; D:/altera/12.1sp1/MonExp/MonExp.v     ;         ;
+; _parameter.v                     ; yes             ; Auto-Found Verilog HDL File  ; D:/altera/12.1sp1/MonExp/_parameter.v ;         ;
+; t.txt                            ; yes             ; Auto-Found File              ; D:/altera/12.1sp1/MonExp/t.txt        ;         ;
+; e.txt                            ; yes             ; Auto-Found File              ; D:/altera/12.1sp1/MonExp/e.txt        ;         ;
+; r.txt                            ; yes             ; Auto-Found File              ; D:/altera/12.1sp1/MonExp/r.txt        ;         ;
+; v.txt                            ; yes             ; Auto-Found File              ; D:/altera/12.1sp1/MonExp/v.txt        ;         ;
+; nprime0.txt                      ; yes             ; Auto-Found File              ; D:/altera/12.1sp1/MonExp/nprime0.txt  ;         ;
+; m.txt                            ; yes             ; Auto-Found File              ; D:/altera/12.1sp1/MonExp/m.txt        ;         ;
+; n.txt                            ; yes             ; Auto-Found File              ; D:/altera/12.1sp1/MonExp/n.txt        ;         ;
++----------------------------------+-----------------+------------------------------+---------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+;                                             ;       ;
+; Total combinational functions               ; 0     ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- <=2 input functions                  ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 0     ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 2     ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
++---------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |MonExp                    ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 2    ; 0            ; |MonExp             ;              ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------------------------------------------------------+
+; State Machine - |MonExp|exp_state                                                                             ;
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
+; Name          ; exp_state.ES5 ; exp_state.ES4 ; exp_state.ES3 ; exp_state.ES2 ; exp_state.ES1 ; exp_state.ES0 ;
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
+; exp_state.ES0 ; 0             ; 0             ; 0             ; 0             ; 0             ; 0             ;
+; exp_state.ES1 ; 0             ; 0             ; 0             ; 0             ; 1             ; 1             ;
+; exp_state.ES2 ; 0             ; 0             ; 0             ; 1             ; 0             ; 1             ;
+; exp_state.ES3 ; 0             ; 0             ; 1             ; 0             ; 0             ; 1             ;
+; exp_state.ES4 ; 0             ; 1             ; 0             ; 0             ; 0             ; 1             ;
+; exp_state.ES5 ; 1             ; 0             ; 0             ; 0             ; 0             ; 1             ;
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------+
+; State Machine - |MonExp|state                                                                    ;
++----------+----------+----------+----------+----------+----------+----------+----------+----------+
+; Name     ; state.S7 ; state.S6 ; state.S5 ; state.S4 ; state.S3 ; state.S2 ; state.S1 ; state.S0 ;
++----------+----------+----------+----------+----------+----------+----------+----------+----------+
+; state.S0 ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ;
+; state.S1 ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 1        ;
+; state.S2 ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0        ; 1        ;
+; state.S3 ; 0        ; 0        ; 0        ; 0        ; 1        ; 0        ; 0        ; 1        ;
+; state.S4 ; 0        ; 0        ; 0        ; 1        ; 0        ; 0        ; 0        ; 1        ;
+; state.S5 ; 0        ; 0        ; 1        ; 0        ; 0        ; 0        ; 0        ; 1        ;
+; state.S6 ; 0        ; 1        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ;
+; state.S7 ; 1        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ;
++----------+----------+----------+----------+----------+----------+----------+----------+----------+
+
+
++----------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                               ;
++-----------------------------------------+----------------------------------------+
+; Register name                           ; Reason for Removal                     ;
++-----------------------------------------+----------------------------------------+
+; k[1..9,11..31]                          ; Merged with k[10]                      ;
+; k[10]                                   ; Stuck at GND due to stuck port data_in ;
+; exp_state~10                            ; Lost fanout                            ;
+; exp_state~11                            ; Lost fanout                            ;
+; exp_state~12                            ; Lost fanout                            ;
+; state~12                                ; Lost fanout                            ;
+; state~13                                ; Lost fanout                            ;
+; state~14                                ; Lost fanout                            ;
+; k_e2[0..5]                              ; Lost fanout                            ;
+; k_e1[0]                                 ; Lost fanout                            ;
+; k_e2[6]                                 ; Lost fanout                            ;
+; k_e1[1]                                 ; Lost fanout                            ;
+; k_e2[7]                                 ; Lost fanout                            ;
+; k_e1[2]                                 ; Lost fanout                            ;
+; k_e2[8]                                 ; Lost fanout                            ;
+; k_e1[3]                                 ; Lost fanout                            ;
+; k_e2[9]                                 ; Lost fanout                            ;
+; k_e1[4]                                 ; Lost fanout                            ;
+; k_e2[10]                                ; Lost fanout                            ;
+; k_e1[5]                                 ; Lost fanout                            ;
+; k_e2[11]                                ; Lost fanout                            ;
+; k_e1[6..31]                             ; Lost fanout                            ;
+; k_e2[12..31]                            ; Lost fanout                            ;
+; k[0]                                    ; Lost fanout                            ;
+; j[0..31]                                ; Lost fanout                            ;
+; i[0..31]                                ; Lost fanout                            ;
+; exp_state.ES0                           ; Lost fanout                            ;
+; exp_state.ES1                           ; Lost fanout                            ;
+; exp_state.ES2                           ; Lost fanout                            ;
+; exp_state.ES3                           ; Lost fanout                            ;
+; exp_state.ES4                           ; Lost fanout                            ;
+; exp_state.ES5                           ; Lost fanout                            ;
+; state.S0                                ; Lost fanout                            ;
+; state.S1                                ; Lost fanout                            ;
+; state.S2                                ; Lost fanout                            ;
+; state.S3                                ; Lost fanout                            ;
+; state.S4                                ; Lost fanout                            ;
+; state.S5                                ; Lost fanout                            ;
+; state.S6                                ; Lost fanout                            ;
+; state.S7                                ; Lost fanout                            ;
+; Total Number of Removed Registers = 180 ;                                        ;
++-----------------------------------------+----------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                     ;
++---------------+---------------------------+-----------------------------------------------------------------------------------------------------+
+; Register name ; Reason for Removal        ; Registers Removed due to This Register                                                              ;
++---------------+---------------------------+-----------------------------------------------------------------------------------------------------+
+; k_e2[5]       ; Lost Fanouts              ; k_e2[31], k_e2[30], k_e2[29], k_e2[28], k_e2[27], k_e2[26], k_e2[25], k_e2[24], k_e2[23], k_e2[22], ;
+;               ;                           ; k_e2[21], k_e2[20], k_e2[19], k_e2[18], k_e2[17], k_e2[16], k_e2[15], k_e2[14], k_e2[13], k_e2[12], ;
+;               ;                           ; exp_state.ES0                                                                                       ;
+; k[10]         ; Stuck at GND              ; k_e2[0], k_e2[1], k_e2[2], k_e2[3], j[31], j[30], j[29], j[28], j[27], j[26], exp_state.ES1         ;
+;               ; due to stuck port data_in ;                                                                                                     ;
+; state~12      ; Lost Fanouts              ; k[0], state.S0, state.S1, state.S3, state.S5                                                        ;
+; k_e1[0]       ; Lost Fanouts              ; k_e1[1], k_e1[2], k_e1[3], k_e1[4]                                                                  ;
+; exp_state~10  ; Lost Fanouts              ; exp_state.ES2, exp_state.ES3, state.S7                                                              ;
+; state~13      ; Lost Fanouts              ; state.S2, state.S6                                                                                  ;
+; exp_state~12  ; Lost Fanouts              ; exp_state.ES4                                                                                       ;
+; state~14      ; Lost Fanouts              ; state.S4                                                                                            ;
++---------------+---------------------------+-----------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; 8:1                ; 25 bits   ; 125 LEs       ; 0 LEs                ; 125 LEs                ; Yes        ; |MonExp|k_e1[12]           ;
+; 8:1                ; 27 bits   ; 135 LEs       ; 27 LEs               ; 108 LEs                ; Yes        ; |MonExp|k_e2[7]            ;
+; 9:1                ; 32 bits   ; 192 LEs       ; 32 LEs               ; 160 LEs                ; Yes        ; |MonExp|j[13]              ;
+; 8:1                ; 7 bits    ; 35 LEs        ; 0 LEs                ; 35 LEs                 ; Yes        ; |MonExp|k_e1[0]            ;
+; 8:1                ; 5 bits    ; 25 LEs        ; 5 LEs                ; 20 LEs                 ; Yes        ; |MonExp|k_e2[4]            ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |MonExp|i                  ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; No         ; |MonExp|Selector17521      ;
+; 11:1               ; 2 bits    ; 14 LEs        ; 8 LEs                ; 6 LEs                  ; No         ; |MonExp|Selector17522      ;
+; 15:1               ; 2 bits    ; 20 LEs        ; 6 LEs                ; 14 LEs                 ; No         ; |MonExp|Selector13344      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+
+
++------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |MonExp ;
++----------------+-------+-----------------------------------------------+
+; Parameter Name ; Value ; Type                                          ;
++----------------+-------+-----------------------------------------------+
+; S0             ; 0     ; Signed Integer                                ;
+; S1             ; 1     ; Signed Integer                                ;
+; S2             ; 2     ; Signed Integer                                ;
+; S3             ; 3     ; Signed Integer                                ;
+; S4             ; 4     ; Signed Integer                                ;
+; S5             ; 5     ; Signed Integer                                ;
+; S6             ; 6     ; Signed Integer                                ;
+; S7             ; 7     ; Signed Integer                                ;
+; ES0            ; 0     ; Signed Integer                                ;
+; ES1            ; 1     ; Signed Integer                                ;
+; ES2            ; 2     ; Signed Integer                                ;
+; ES3            ; 3     ; Signed Integer                                ;
+; ES4            ; 4     ; Signed Integer                                ;
+; ES5            ; 5     ; Signed Integer                                ;
++----------------+-------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit Analysis & Synthesis
+    Info: Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Thu Apr 25 23:29:42 2013
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MonExp -c MonExp
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file monexp_tb.v
+    Info (12023): Found entity 1: MonExp_tb
+Info (12021): Found 1 design units, including 1 entities, in source file mul_add.v
+    Info (12023): Found entity 1: mul_add
+Info (12021): Found 1 design units, including 1 entities, in source file monexp.v
+    Info (12023): Found entity 1: MonExp
+Info (12127): Elaborating entity "MonExp" for the top level hierarchy
+Warning (10030): Net "m_in.data_a" at MonExp.v(11) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "m_in.waddr_a" at MonExp.v(11) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "t_in.data_a" at MonExp.v(13) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "t_in.waddr_a" at MonExp.v(13) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "e_in.waddr_a" at MonExp.v(14) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "n_in.data_a" at MonExp.v(16) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "n_in.waddr_a" at MonExp.v(16) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "m_in.we_a" at MonExp.v(11) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "t_in.we_a" at MonExp.v(13) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "e_in.data_a" at MonExp.v(14) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "e_in.we_a" at MonExp.v(14) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "n_in.we_a" at MonExp.v(16) has no driver or initial value, using a default initial value '0'
+Info (12128): Elaborating entity "mul_add" for hierarchy "mul_add:mul_add0"
+Info (276014): Found 1 instances of uninferred RAM logic
+    Info (276007): RAM logic "e_in" is uninferred due to asynchronous read logic
+Info (17049): 149 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file D:/altera/12.1sp1/MonExp/output_files/MonExp.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "clk"
+    Warning (15610): No output dependent on input pin "reset"
+Info (21057): Implemented 2 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 0 output pins
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 16 warnings
+    Info: Peak virtual memory: 575 megabytes
+    Info: Processing ended: Thu Apr 25 23:30:51 2013
+    Info: Elapsed time: 00:01:09
+    Info: Total CPU time (on all processors): 00:01:08
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in D:/altera/12.1sp1/MonExp/output_files/MonExp.map.smsg.
+
+

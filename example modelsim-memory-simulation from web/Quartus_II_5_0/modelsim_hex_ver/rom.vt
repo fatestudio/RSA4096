@@ -1,0 +1,107 @@
+// Copyright (C) 1991-2005 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic       
+// functions, and any output files any of the foregoing           
+// (including device programming or simulation files), and any    
+// associated documentation or information are expressly subject  
+// to the terms and conditions of the Altera Program License      
+// Subscription Agreement, Altera MegaCore Function License       
+// Agreement, or other applicable license agreement, including,   
+// without limitation, that your use is for the sole purpose of   
+// programming logic devices manufactured by Altera and sold by   
+// Altera or its authorized distributors.  Please refer to the    
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "05/18/2005 21:28:41"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          rom
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module rom_vlg_vec_tst();
+// constants                                           
+// general purpose registers                               
+reg [4:0] t__reg__address;
+reg t__reg__clock;
+// wires                                               
+wire [4:0] t__wire__address;
+wire t__wire__clock;
+wire [0:0] t__wire__q;
+
+// assign statements (if any)                          
+assign {t__wire__address,t__wire__clock} = {t__reg__address,t__reg__clock};
+rom tb (
+// port map - connection between master ports and signals/registers   
+	.address(t__wire__address),
+	.clock(t__wire__clock),
+	.q(t__wire__q)
+);
+initial 
+begin 
+#1000000 $stop;
+end 
+
+// clock
+always
+begin
+	t__reg__clock = 1'b0;
+	t__reg__clock = #5000 1'b1;
+	#5000;
+end 
+// address[ 4 ]
+initial
+begin
+	repeat(3)
+	begin
+		t__reg__address[4] = 1'b0;
+		t__reg__address[4] = #160000 1'b1;
+		# 160000;
+	end
+	t__reg__address[4] = 1'b0;
+end 
+// address[ 3 ]
+initial
+begin
+	repeat(6)
+	begin
+		t__reg__address[3] = 1'b0;
+		t__reg__address[3] = #80000 1'b1;
+		# 80000;
+	end
+	t__reg__address[3] = 1'b0;
+end 
+// address[ 2 ]
+initial
+begin
+	repeat(12)
+	begin
+		t__reg__address[2] = 1'b0;
+		t__reg__address[2] = #40000 1'b1;
+		# 40000;
+	end
+	t__reg__address[2] = 1'b0;
+end 
+// address[ 1 ]
+always
+begin
+	t__reg__address[1] = 1'b0;
+	t__reg__address[1] = #20000 1'b1;
+	#20000;
+end 
+// address[ 0 ]
+always
+begin
+	t__reg__address[0] = 1'b0;
+	t__reg__address[0] = #10000 1'b1;
+	#10000;
+end 
+endmodule
+

@@ -1,0 +1,44 @@
+|file_readmemh
+clk => data2[0]~reg0.CLK
+clk => data2[1]~reg0.CLK
+clk => data2[2]~reg0.CLK
+clk => data2[3]~reg0.CLK
+clk => data2[4]~reg0.CLK
+clk => data2[5]~reg0.CLK
+clk => data2[6]~reg0.CLK
+clk => data2[7]~reg0.CLK
+clk => data2[8]~reg0.CLK
+clk => data2[9]~reg0.CLK
+clk => data2[10]~reg0.CLK
+clk => data2[11]~reg0.CLK
+clk => data2[12]~reg0.CLK
+clk => data2[13]~reg0.CLK
+clk => data2[14]~reg0.CLK
+clk => data2[15]~reg0.CLK
+clk => data2[16]~reg0.CLK
+clk => data2[17]~reg0.CLK
+clk => data2[18]~reg0.CLK
+clk => data2[19]~reg0.CLK
+addr => ~NO_FANOUT~
+data2[0] <= data2[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[1] <= data2[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[2] <= data2[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[3] <= data2[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[4] <= data2[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[5] <= data2[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[6] <= data2[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[7] <= data2[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[8] <= data2[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[9] <= data2[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[10] <= data2[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[11] <= data2[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[12] <= data2[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[13] <= data2[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[14] <= data2[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[15] <= data2[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[16] <= data2[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[17] <= data2[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[18] <= data2[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[19] <= data2[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

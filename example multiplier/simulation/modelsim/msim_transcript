@@ -1,0 +1,98 @@
+# Reading D:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do multiplier_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+d:/altera/12.1sp1/multiplier {d:/altera/12.1sp1/multiplier/multiplier.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# 
+vlog -reportprogress 300 -work work D:/altera/12.1sp1/multiplier/simulation/modelsim/multiplier_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module multiplier
+# -- Compiling module multiplier_tb
+# 
+# Top level modules:
+# 	multiplier_tb
+vsim +altera -do multiplier_run_msim_rtl_verilog.do -l msim_transcript -gui rtl_work.multiplier_tb
+# vsim +altera -do multiplier_run_msim_rtl_verilog.do -l msim_transcript -gui rtl_work.multiplier_tb 
+# Loading rtl_work.multiplier_tb
+# Loading rtl_work.multiplier
+# SymInitialize: (null)
+# do multiplier_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+d:/altera/12.1sp1/multiplier {d:/altera/12.1sp1/multiplier/multiplier.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# 
+run
+# My Multiplier
+# 0	1	         0	         0	         x	         x	
+# 5	0	        10	         0	         x	         x	
+# 10	1	        10	         0	         0	         0	
+# 15	0	        10	        30	         0	         0	
+# 20	1	        10	        30	         0	         0	
+# 25	0	        10	        30	         0	         0	
+# 30	1	        10	        30	       300	         0	
+# 35	0	        10	        30	       300	         0	
+# 40	1	        10	        30	       300	         0	
+# 45	0	        10	        30	       300	         0	
+# 50	1	        10	        30	       300	         0	
+# 55	0	        10	        30	       300	         0	
+# 60	1	        10	        30	       300	         0	
+# Break in Module multiplier_tb at D:/altera/12.1sp1/multiplier/simulation/modelsim/multiplier_tb.v line 20
+add wave -position insertpoint  \
+sim:/multiplier_tb/clock \
+sim:/multiplier_tb/dataa \
+sim:/multiplier_tb/datab \
+sim:/multiplier_tb/dataoutl \
+sim:/multiplier_tb/dataouth
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: fatestudio  Hostname: FATESTUDIO-PC  ProcessID: 5560
+# 
+#           Attempting to use alternate WLF file "./wlft00tntm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft00tntm
+# 
+run
+# 65	0	        10	        30	       300	         0	
+# 70	1	        10	        30	       300	         0	
+# 75	0	        10	        30	       300	         0	
+# 80	1	        10	        30	       300	         0	
+# 85	0	        10	        30	       300	         0	
+# 90	1	        10	        30	       300	         0	
+# 95	0	        10	        30	       300	         0	
+# 100	1	        10	        30	       300	         0	
+# 105	0	        10	        30	       300	         0	
+# 110	1	        10	        30	       300	         0	
+# 115	0	        10	        30	       300	         0	
+# 120	1	        10	        30	       300	         0	
+# 125	0	        10	        30	       300	         0	
+# 130	1	        10	        30	       300	         0	
+# 135	0	        10	        30	       300	         0	
+# 140	1	        10	        30	       300	         0	
+# 145	0	        10	        30	       300	         0	
+# 150	1	        10	        30	       300	         0	
+# 155	0	        10	        30	       300	         0	
+# 160	1	        10	        30	       300	         0	

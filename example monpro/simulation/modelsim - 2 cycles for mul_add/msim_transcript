@@ -1,0 +1,755 @@
+# Reading D:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MonPro_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/MonPro {D:/altera/12.1sp1/MonPro/_parameter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/MonPro {D:/altera/12.1sp1/MonPro/mul_add.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/MonPro {D:/altera/12.1sp1/MonPro/monpro.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module monpro
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(129): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(130): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(141): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(142): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	monpro
+# 
+vlog -reportprogress 300 -work work D:/altera/12.1sp1/MonPro/simulation/modelsim/MonPro_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+vsim work.MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+RUN
+# invalid command name "RUN"
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1 of file "v.txt". (Current address [130], address range [0:129])    : D:/altera/12.1sp1/MonPro/monpro.v(33)
+#    Time: 0 ps  Iteration: 0  Instance: /MonPro_tb/monpro0
+vsim work.MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+run
+add wave -position insertpoint  \
+sim:/MonPro_tb/monpro0/nprime0
+add wave -position insertpoint  \
+sim:/MonPro_tb/monpro0/state
+add wave -position insertpoint  \
+sim:/MonPro_tb/monpro0/clk
+vsim work.MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+run
+run
+run
+run
+add wave z
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data *}
+# 
+# 
+#     design_library {MonPro.v}
+#     test_library   {MonPro_tb.v}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# ** Error: (vlog-7) Failed to open design unit file "MonPro.v" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./MonProSimulation.tcl line 19
+# D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog $file"
+#     ("foreach" body line 2)
+#     invoked from within
+# "foreach file $file_list {
+# 	vlog $file
+#   }"
+#     ("foreach" body line 4)
+#     invoked from within
+# "foreach {library file_list} $library_file_list {
+#   vlib $library
+#   vmap work $library
+#   foreach file $file_list {
+# 	vlog $file
+#   }
+# }"
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data *}
+# 
+# 
+#     design_library {monpro.v, mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# ** Error: (vlog-7) Failed to open design unit file "monpro.v," in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./MonProSimulation.tcl line 19
+# D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog $file"
+#     ("foreach" body line 2)
+#     invoked from within
+# "foreach file $file_list {
+# 		vlog $file
+# 	}"
+#     ("foreach" body line 4)
+#     invoked from within
+# "foreach {library file_list} $library_file_list {
+# 	vlib $library
+# 	vmap work $library
+# 	foreach file $file_list {
+# 		vlog $file
+# 	}
+# }"
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data *}
+# 
+# 
+#     design_library {monpro.v, mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# design_library
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# ** Error: (vlog-7) Failed to open design unit file "monpro.v," in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./MonProSimulation.tcl line 20
+# D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog $file"
+#     ("foreach" body line 2)
+#     invoked from within
+# "foreach file $file_list {
+# 		vlog $file
+# 	}"
+#     ("foreach" body line 5)
+#     invoked from within
+# "foreach {library file_list} $library_file_list {
+# 	puts $library
+# 	vlib $library
+# 	vmap work $library
+# 	foreach file $file_list {
+# 		vlog $file
+# 	}
+# }"
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data *}
+# 
+# 
+#     design_library {monpro.v, mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# file
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# ** Error: (vlog-7) Failed to open design unit file "monpro.v," in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./MonProSimulation.tcl line 20
+# D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog $file"
+#     ("foreach" body line 3)
+#     invoked from within
+# "foreach file $file_list {
+# 		puts file
+# 		vlog $file
+# 	}"
+#     ("foreach" body line 4)
+#     invoked from within
+# "foreach {library file_list} $library_file_list {
+# 	vlib $library
+# 	vmap work $library
+# 	foreach file $file_list {
+# 		puts file
+# 		vlog $file
+# 	}
+# }"
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data *}
+# 
+# 
+#     design_library {monpro.v, mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# monpro.v,
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# ** Error: (vlog-7) Failed to open design unit file "monpro.v," in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./MonProSimulation.tcl line 20
+# D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog $file"
+#     ("foreach" body line 3)
+#     invoked from within
+# "foreach file $file_list {
+# 		puts $file
+# 		vlog $file
+# 	}"
+#     ("foreach" body line 4)
+#     invoked from within
+# "foreach {library file_list} $library_file_list {
+# 	vlib $library
+# 	vmap work $library
+# 	foreach file $file_list {
+# 		puts $file
+# 		vlog $file
+# 	}
+# }"
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data *}
+# 
+# 
+#     design_library {monpro.v 
+# 		mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# monpro.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# ** Error: monpro.v(3): Cannot open `include file "_parameter.v".
+# -- Compiling module monpro
+# ** Error: monpro.v(11): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(11): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(12): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(12): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(13): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(13): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(15): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(16): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(16): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(18): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(19): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(19): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(20): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Warning: monpro.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Error: monpro.v(41): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(42): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(43): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(44): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(45): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(46): (vlog-2163) Macro `DATA_WIDTH is undefined.
+# 
+# ** Error: monpro.v(70): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(70): near ")": syntax error, unexpected ')'
+# ** Error: monpro.v(74): near "end": syntax error, unexpected end
+# ** Warning: monpro.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Error: monpro.v(80): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(80): near "]": syntax error, unexpected ']'
+# ** Error: monpro.v(83): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(83): near "]": syntax error, unexpected ']'
+# ** Error: monpro.v(84): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(88): near ":": Syntax error. Statement labels are only allowed in SystemVerilog.
+# ** Warning: monpro.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Error: monpro.v(102): A label for a block can be specified before 'begin' only in SystemVerilog.
+# ** Error: monpro.v(103): near "<=": syntax error, unexpected <=, expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: monpro.v(112): near "<=": syntax error, unexpected <=, expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: monpro.v(120): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(120): near ")": syntax error, unexpected ')'
+# ** Error: monpro.v(125): near "end": syntax error, unexpected end
+# ** Error: monpro.v(131): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(134): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(143): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(146): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(149): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: monpro.v(149): near ")": syntax error, unexpected ')'
+# ** Error: monpro.v(158): (vlog-2163) Macro `TOTAL_ADDR is undefined.
+# 
+# ** Error: D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./MonProSimulation.tcl line 21
+# D:/altera/12.1sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog $file"
+#     ("foreach" body line 3)
+#     invoked from within
+# "foreach file $file_list {
+# 		puts $file
+# 		vlog $file
+# 	}"
+#     ("foreach" body line 4)
+#     invoked from within
+# "foreach {library file_list} $library_file_list {
+# 	vlib $library
+# 	vmap work $library
+# 	foreach file $file_list {
+# 		puts $file
+# 		vlog $file
+# 	}
+# }"
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data *}
+# 
+# 
+#     design_library {monpro.v 
+# 		mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# monpro.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module monpro
+# ** Warning: monpro.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(129): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(130): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(141): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(142): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	monpro
+# mul_add.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# MonPro_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# ** Error: (vsim-3033) MonPro_tb.v(7): Instantiation of 'monpro' failed. The design unit was not found.
+# 
+#         Region: /MonPro_tb
+#         Searched libraries:
+#             D:/altera/12.1sp1/MonPro/simulation/modelsim/test_library
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./MonProSimulation.tcl PAUSED at line 23
+vlog monpro.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module monpro
+# ** Warning: monpro.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(129): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(130): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(141): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(142): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	monpro
+vsim MonPro_tb
+# vsim MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# ** Error: (vsim-3033) monpro.v(48): Instantiation of 'mul_add' failed. The design unit was not found.
+# 
+#         Region: /MonPro_tb/monpro0
+#         Searched libraries:
+#             D:/altera/12.1sp1/MonPro/simulation/modelsim/test_library
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./MonProSimulation.tcl PAUSED at line 23
+vlog mul_add.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+vsim MonPro_tb
+# vsim MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data *}
+# 
+# 
+#     design_library {monpro.v 
+# 		mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# monpro.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module monpro
+# ** Warning: monpro.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(129): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(130): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(141): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(142): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	monpro
+# mul_add.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# MonPro_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+# ** Error: (vish-4014) No objects found matching 'state'.
+# Error in macro ./MonProSimulation.tcl line 25
+# (vish-4014) No objects found matching 'state'.
+#     while executing
+# "add wave state"
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data *}
+# 
+# 
+#     design_library {monpro.v 
+# 		mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# monpro.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module monpro
+# ** Warning: monpro.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(129): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(130): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(141): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(142): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	monpro
+# mul_add.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# MonPro_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+# ** Error: (vish-4014) No objects found matching 'MonPro_tb.clk'.
+# Error in macro ./MonProSimulation.tcl line 24
+# (vish-4014) No objects found matching 'MonPro_tb.clk'.
+#     while executing
+# "add wave MonPro_tb.clk"
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data *}
+# 
+# 
+#     design_library {monpro.v 
+# 		mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# monpro.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module monpro
+# ** Warning: monpro.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(129): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(130): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(141): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(142): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	monpro
+# mul_add.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# MonPro_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# 
+#     design_library {monpro.v 
+# 		mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# monpro.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module monpro
+# ** Warning: monpro.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(129): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(130): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(141): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(142): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	monpro
+# mul_add.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# MonPro_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# 
+#     design_library {monpro.v 
+# 		mul_add.v}
+#     test_library   {MonPro_tb.v}
+# 
+# monpro.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module monpro
+# ** Warning: monpro.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(129): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(130): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(141): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: monpro.v(142): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	monpro
+# mul_add.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# MonPro_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)

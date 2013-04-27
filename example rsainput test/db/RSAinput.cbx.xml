@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="RSAinput">
+		<CBX_INST_ENTRY INSTANCE_NAME="|RSAinput|mem_e:mem_e0|lpm_ram_dq:ram|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_cg91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|RSAinput|mem_m:mem_m0|lpm_ram_dq:ram|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_kg91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|RSAinput|multiplier:multiplier0|lpm_mult:Mult0" CBX_FILE_NAME="mult_l8t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

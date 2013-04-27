@@ -1,0 +1,97 @@
+# Reading D:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MonPro_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/MonPro {D:/altera/12.1sp1/MonPro/_parameter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/MonPro {D:/altera/12.1sp1/MonPro/mul_add.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/MonPro {D:/altera/12.1sp1/MonPro/monpro.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module monpro
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(86): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(87): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(105): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(124): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(157): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(158): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(174): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/altera/12.1sp1/MonPro/monpro.v(175): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	monpro
+# 
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+# WARNING: No extended dataflow license exists
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+# WARNING: No extended dataflow license exists
+# In State S6!
+do MonProSimulation.tcl
+# work.MonPro_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module MonPro_tb
+# 
+# Top level modules:
+# 	MonPro_tb
+# vsim work.MonPro_tb 
+# Loading work.MonPro_tb
+# Loading work.monpro
+# Loading work.mul_add
+# SymInitialize: (null)
+# WARNING: No extended dataflow license exists
+# In State S6!

@@ -1,0 +1,115 @@
+# Reading D:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do RSAinput_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/RSAinput {D:/altera/12.1sp1/RSAinput/mem_m.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mem_m
+# 
+# Top level modules:
+# 	mem_m
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/RSAinput {D:/altera/12.1sp1/RSAinput/mem_e.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mem_e
+# 
+# Top level modules:
+# 	mem_e
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/RSAinput {D:/altera/12.1sp1/RSAinput/RSAinput.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module RSAinput
+# 
+# Top level modules:
+# 	RSAinput
+# vlog -vlog01compat -work work +incdir+D:/altera/12.1sp1/RSAinput {D:/altera/12.1sp1/RSAinput/multiplier.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# 
+do RSAinputSimulation.tcl
+# vsim -L 220model_ver work.RSAinput_tb 
+# ** Error: (vsim-3170) Could not find 'D:/altera/12.1sp1/RSAinput/simulation/modelsim/rtl_work.RSAinput_tb'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./RSAinputSimulation.tcl PAUSED at line 3
+vlog -reportprogress 300 -work work D:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module RSAinput_tb
+# 
+# Top level modules:
+# 	RSAinput_tb
+do RSAinputSimulation.tcl
+# vsim -L 220model_ver work.RSAinput_tb 
+# Loading work.RSAinput_tb
+# Loading work.RSAinput
+# Loading work.mem_m
+# Loading 220model_ver.lpm_ram_dq
+# Loading 220model_ver.LPM_DEVICE_FAMILIES
+# Loading 220model_ver.LPM_MEMORY_INITIALIZATION
+# Loading work.mem_e
+# Loading work.multiplier
+# SymInitialize: (null)
+# ** Error: (vish-4014) No objects found matching 't_wire_addr1'.
+# Error in macro ./RSAinputSimulation.tcl line 6
+# (vish-4014) No objects found matching 't_wire_addr1'.
+#     while executing
+# "add wave t_wire_addr1"
+do RSAinputSimulation.tcl
+# vsim -L 220model_ver work.RSAinput_tb 
+# Loading work.RSAinput_tb
+# Loading work.RSAinput
+# Loading work.mem_m
+# Loading 220model_ver.lpm_ram_dq
+# Loading 220model_ver.LPM_DEVICE_FAMILIES
+# Loading 220model_ver.LPM_MEMORY_INITIALIZATION
+# Loading work.mem_e
+# Loading work.multiplier
+# SymInitialize: (null)
+# Break in Module RSAinput_tb at D:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt line 23
+# Simulation Breakpoint: Break in Module RSAinput_tb at D:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt line 23
+# MACRO ./RSAinputSimulation.tcl PAUSED at line 12
+add wave -position insertpoint  \
+sim:/RSAinput_tb/tb/mem_m0/dataout
+add wave -position insertpoint  \
+sim:/RSAinput_tb/tb/mem_m0/dataout
+add wave -position insertpoint  \
+sim:/RSAinput_tb/tb/mem_m0/dataout
+do RSAinputSimulation.tcl
+# vsim -L 220model_ver work.RSAinput_tb 
+# Loading work.RSAinput_tb
+# Loading work.RSAinput
+# Loading work.mem_m
+# Loading 220model_ver.lpm_ram_dq
+# Loading 220model_ver.LPM_DEVICE_FAMILIES
+# Loading 220model_ver.LPM_MEMORY_INITIALIZATION
+# Loading work.mem_e
+# Loading work.multiplier
+# SymInitialize: (null)
+# Break in Module RSAinput_tb at D:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt line 23
+# Simulation Breakpoint: Break in Module RSAinput_tb at D:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt line 23
+# MACRO ./RSAinputSimulation.tcl PAUSED at line 12
+do RSAinputSimulation.tcl
+# vsim -L 220model_ver work.RSAinput_tb 
+# Loading work.RSAinput_tb
+# Loading work.RSAinput
+# Loading work.mem_m
+# Loading 220model_ver.lpm_ram_dq
+# Loading 220model_ver.LPM_DEVICE_FAMILIES
+# Loading 220model_ver.LPM_MEMORY_INITIALIZATION
+# Loading work.mem_e
+# Loading work.multiplier
+# SymInitialize: (null)
+# Break in Module RSAinput_tb at D:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt line 23
+# Simulation Breakpoint: Break in Module RSAinput_tb at D:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt line 23
+# MACRO ./RSAinputSimulation.tcl PAUSED at line 12

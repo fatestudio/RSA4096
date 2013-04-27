@@ -1,0 +1,9 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="00000000000000000000"/>
+  </project>
+  <file_info>
+    <file checksum="0x00072CB0" device="EP2C5T144C6" path="MonExp.sof" usercode="0xFFFFFFFF"/>
+    <file checksum="0x07535B7A" device="EPCS4" path="MonExp.pof" usercode="0x00000000"/>
+  </file_info>
+</sld_project_info>

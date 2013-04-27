@@ -1,0 +1,106 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\12.1sp1\RSAinput\simulation\modelsim
+vmem_e
+IMFcDSIcYM>AilS<@fFRnd2
+VQo@LU0UbcdX?M]2mCblW61
+Z1 dD:\altera\12.1sp1\RSAinput\simulation\modelsim
+w1366748722
+8D:/altera/12.1sp1/RSAinput/mem_e.v
+FD:/altera/12.1sp1/RSAinput/mem_e.v
+L0 3
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/altera/12.1sp1/RSAinput -O0
+!i10b 1
+!s100 cTLV^DDlC1RU^[19Ak>NL0
+!s85 0
+!s108 1366755814.441000
+!s107 D:/altera/12.1sp1/RSAinput/mem_e.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/12.1sp1/RSAinput|D:/altera/12.1sp1/RSAinput/mem_e.v|
+!s101 -O0
+vmem_m
+IMVzXD0B7G`@KD;GDZSoC61
+V9=4OFojozOm;8f1c^Tn@X0
+R1
+w1366748716
+8D:/altera/12.1sp1/RSAinput/mem_m.v
+FD:/altera/12.1sp1/RSAinput/mem_m.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 V3Rl]DRGXD>WB?lTTGK>a0
+!s85 0
+!s108 1366755814.376000
+!s107 D:/altera/12.1sp1/RSAinput/mem_m.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/12.1sp1/RSAinput|D:/altera/12.1sp1/RSAinput/mem_m.v|
+!s101 -O0
+vmultiplier
+IlAo_ee53P1ZU[<BeUa`7=2
+V8bZ0=N?Iz`MH]G<DcA3z21
+R1
+w1366749040
+8D:/altera/12.1sp1/RSAinput/multiplier.v
+FD:/altera/12.1sp1/RSAinput/multiplier.v
+L0 4
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 z2<JkNnPahZD=JVcjmkN93
+!s85 0
+!s108 1366755814.585000
+!s107 D:/altera/12.1sp1/RSAinput/multiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/12.1sp1/RSAinput|D:/altera/12.1sp1/RSAinput/multiplier.v|
+!s101 -O0
+vRSAinput
+IK?RazN`7?P6Vo<OW:Z?2a0
+VgaJo_B1G;UM4X9_@hGEZG3
+R1
+w1366755720
+8D:/altera/12.1sp1/RSAinput/RSAinput.v
+FD:/altera/12.1sp1/RSAinput/RSAinput.v
+L0 3
+R2
+r1
+31
+R3
+R4
+n@r@s@ainput
+!i10b 1
+!s100 PGNnUjU9OV8I^P5o7=Mei1
+!s85 0
+!s108 1366755814.523000
+!s107 D:/altera/12.1sp1/RSAinput/RSAinput.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/12.1sp1/RSAinput|D:/altera/12.1sp1/RSAinput/RSAinput.v|
+!s101 -O0
+vRSAinput_tb
+!i10b 1
+!s100 lAdKgmPa`094?[6:0o9i=1
+Ih=aB937>o@:G@_EBzDkz;3
+V<b<0:Q20bN4]2fIVRc3^02
+R1
+w1366755565
+8D:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt
+FD:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1366755853.730000
+!s107 D:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt|
+!s90 -reportprogress|300|-work|work|D:/altera/12.1sp1/RSAinput/simulation/modelsim/RSAinputSimulation.vt|
+!s101 -O0
+o-work work -O0
+n@r@s@ainput_tb

@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\12.1sp1\MonExp\simulation\modelsim
+vMonExp
+Z1 IhYbco2;JL;CJ>mX0@_::31
+Z2 VEI5F4GLz[`?NW[13ZK6Xe2
+Z3 dD:\altera\12.1sp1\MonExp\simulation\modelsim
+Z4 w1366960956
+Z5 8D:/altera/12.1sp1/MonExp/monexp.v
+Z6 FD:/altera/12.1sp1/MonExp/monexp.v
+L0 5
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-vlog01compat -work work -O0
+Z9 n@mon@exp
+Z10 !s92 -vlog01compat -work work +incdir+D:/altera/12.1sp1/MonExp -O0
+!i10b 1
+Z11 !s100 GDhI7Q[SnN]f^7<XF_M8W2
+!s85 0
+Z12 !s108 1366989745.034000
+Z13 !s107 D:/altera/12.1sp1/MonExp/_parameter.v|D:/altera/12.1sp1/MonExp/monexp.v|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/12.1sp1/MonExp|D:/altera/12.1sp1/MonExp/monexp.v|
+!s101 -O0
+vMonExp_tb
+!i10b 1
+!s100 OZXDzkaC=S2STe9aFH]PP0
+IN4FNj`zH;JN0Rg5Om2;e`2
+V6Y;AZ>>:E[gJTJMDWb4Kg2
+R3
+w1366959677
+8MonExp_tb.v
+FMonExp_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1366989828.569000
+!s107 MonExp_tb.v|
+!s90 -reportprogress|300|MonExp_tb.v|
+!s101 -O0
+o-O0
+n@mon@exp_tb
+vmul_add
+Z15 IV^o:n[N2ZlRK3zYn>KEg12
+Z16 VYNQ>]7d6`mmSzGjBCCPO=0
+R3
+Z17 w1366933261
+Z18 8D:/altera/12.1sp1/MonExp/mul_add.v
+Z19 FD:/altera/12.1sp1/MonExp/mul_add.v
+L0 4
+R7
+r1
+31
+R8
+R10
+!i10b 1
+Z20 !s100 KGPXl85hNI29^dX]1kj`E2
+!s85 0
+Z21 !s108 1366989745.272000
+Z22 !s107 D:/altera/12.1sp1/MonExp/_parameter.v|D:/altera/12.1sp1/MonExp/mul_add.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/12.1sp1/MonExp|D:/altera/12.1sp1/MonExp/mul_add.v|
+!s101 -O0

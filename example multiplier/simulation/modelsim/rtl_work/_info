@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\12.1sp1\multiplier\simulation\modelsim
+vmultiplier
+!i10b 1
+!s100 zkcRJ?6P3LQN9Pfz;6UQ32
+IE@_3SdQ6JfTQIkM9^49m[1
+V8bZ0=N?Iz`MH]G<DcA3z21
+Z1 dD:\altera\12.1sp1\multiplier\simulation\modelsim
+w1366301996
+8d:/altera/12.1sp1/multiplier/multiplier.v
+Fd:/altera/12.1sp1/multiplier/multiplier.v
+L0 4
+OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1366755128.659000
+!s107 d:/altera/12.1sp1/multiplier/multiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+d:/altera/12.1sp1/multiplier|d:/altera/12.1sp1/multiplier/multiplier.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+d:/altera/12.1sp1/multiplier -O0

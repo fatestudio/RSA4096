@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/altera/12.1sp1/MonPro/MonPro_tb.v
+source_file = 1, D:/altera/12.1sp1/MonPro/mul_add.v
+source_file = 1, D:/altera/12.1sp1/MonPro/monpro.v
+source_file = 1, D:/altera/12.1sp1/MonPro/_parameter.v
+source_file = 1, D:/altera/12.1sp1/MonPro/db/MonPro.cbx.xml
+source_file = 1, D:/altera/12.1sp1/MonPro/e.txt
+source_file = 1, D:/altera/12.1sp1/MonPro/v.txt
+source_file = 1, D:/altera/12.1sp1/MonPro/nprime0.txt
+source_file = 1, D:/altera/12.1sp1/MonPro/m.txt
+source_file = 1, D:/altera/12.1sp1/MonPro/n.txt
+design_name = monpro
+instance = comp, \clk~I , clk, monpro, 1
+instance = comp, \reset~I , reset, monpro, 1
