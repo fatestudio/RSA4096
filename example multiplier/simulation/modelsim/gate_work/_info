@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Jason\Documents\GitHub\RSA4096\example multiplier\simulation\modelsim
+vmultiplier
+!i10b 1
+!s100 MXZ@M>NPGJHWkCdQfFE?O0
+IV>D4<;9d:QL[]aUJ]8nMZ3
+V8bZ0=N?Iz`MH]G<DcA3z21
+Z1 dC:\Users\Jason\Documents\GitHub\RSA4096\example multiplier\simulation\modelsim
+Z2 w1367038332
+Fmultiplier.v
+Z3 8C:/Users/Jason/Documents/GitHub/RSA4096/example multiplier/simulation/modelsim/multiplier_tb.v
+Z4 FC:/Users/Jason/Documents/GitHub/RSA4096/example multiplier/simulation/modelsim/multiplier_tb.v
+L0 4
+Z5 OV;L;10.1b;51
+r1
+!s85 0
+31
+Z6 !s108 1367041277.068000
+Z7 !s107 multiplier.v|C:/Users/Jason/Documents/GitHub/RSA4096/example multiplier/simulation/modelsim/multiplier_tb.v|
+Z8 !s90 -reportprogress|300|-work|work|C:/Users/Jason/Documents/GitHub/RSA4096/example multiplier/simulation/modelsim/multiplier_tb.v|
+!s101 -O0
+Z9 o-work work -O0
+vmultiplier_tb
+!i10b 1
+!s100 5^VhJUc0C7Elb:40lQ1PO1
+ImVkmR6e=6hmQ]nb`OCk4z2
+V?HfT_VY_KlHCLX`cEj:3C1
+R1
+R2
+R3
+R4
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
