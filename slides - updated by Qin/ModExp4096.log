@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.4)  1 MAY 2013 21:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.4)  2 MAY 2013 19:52
 entering extended mode
-**ModExp4096.tex
+**C:/Users/Jason/Documents/GitHub/RSA4096/slides*-*updated*by*Qin/ModExp4096.te
+x
 
-("C:\Users\Jason\Dropbox\AppliedCryptoLabUCSB\rsa4096\slides - updated by Qin\M
-odExp4096.tex"
+("C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/ModExp4096.te
+x"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -745,8 +746,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
-("C:\Users\Jason\Dropbox\AppliedCryptoLabUCSB\rsa4096\slides - updated by Qin\M
-odExp4096.aux")
+("C:\Users\Jason\Documents\GitHub\RSA4096\slides - updated by Qin\ModExp4096.au
+x")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
@@ -825,10 +826,10 @@ LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
 LaTeX Info: Redefining \nameref on input line 12.
 
-("C:\Users\Jason\Dropbox\AppliedCryptoLabUCSB\rsa4096\slides - updated by Qin\M
-odExp4096.out")
-("C:\Users\Jason\Dropbox\AppliedCryptoLabUCSB\rsa4096\slides - updated by Qin\M
-odExp4096.out")
+("C:\Users\Jason\Documents\GitHub\RSA4096\slides - updated by Qin\ModExp4096.ou
+t")
+("C:\Users\Jason\Documents\GitHub\RSA4096\slides - updated by Qin\ModExp4096.ou
+t")
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 12.
@@ -899,8 +900,8 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 12.
 
-("C:\Users\Jason\Dropbox\AppliedCryptoLabUCSB\rsa4096\slides - updated by Qin\M
-odExp4096.nav")
+("C:\Users\Jason\Documents\GitHub\RSA4096\slides - updated by Qin\ModExp4096.na
+v")
 LaTeX Font Info:    Try loading font information for U+msa on input line 22.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -938,11 +939,11 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jason/Dropbox/Ap
-pliedCryptoLabUCSB/rsa4096/slides - updated by Qin/cme-eps-converted-to.pdf>] [
-2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jason/Documents/
+GitHub/RSA4096/slides - updated by Qin/cme-eps-converted-to.pdf>] [2
 
-] [3
+]
+[3
 
 ]
 Package epstopdf Info: Source file: <m24.eps>
@@ -967,8 +968,8 @@ Overfull \vbox (6.55396pt too high) detected at line 79
 
 [4
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/m
-24-eps-converted-to.pdf>]
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/m24-eps-conve
+rted-to.pdf>]
 Package epstopdf Info: Source file: <e24.eps>
 (epstopdf)                    date: 2013-04-26 20:51:14
 (epstopdf)                    size: 354010 bytes
@@ -979,8 +980,7 @@ Package epstopdf Info: Source file: <e24.eps>
 4.eps>
 (epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
-
-<e24-eps-converted-to.pdf, id=153, 256.96pt x 209.78375pt>
+ <e24-eps-converted-to.pdf, id=153, 256.96pt x 209.78375pt>
 File: e24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use e24-eps-converted-to.pdf>
@@ -992,8 +992,8 @@ Overfull \vbox (5.94563pt too high) detected at line 101
 
 [5
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/e
-24-eps-converted-to.pdf>]
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/e24-eps-conve
+rted-to.pdf>]
 Package epstopdf Info: Source file: <n24.eps>
 (epstopdf)                    date: 2013-04-20 16:38:30
 (epstopdf)                    size: 353111 bytes
@@ -1004,8 +1004,7 @@ Package epstopdf Info: Source file: <n24.eps>
 4.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
-
-<n24-eps-converted-to.pdf, id=193, 256.96pt x 209.78375pt>
+ <n24-eps-converted-to.pdf, id=193, 256.96pt x 209.78375pt>
 File: n24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use n24-eps-converted-to.pdf>
@@ -1017,8 +1016,8 @@ Overfull \vbox (5.45895pt too high) detected at line 122
 
 [6
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/n
-24-eps-converted-to.pdf>] [7
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/n24-eps-conve
+rted-to.pdf>] [7
 
 ]
 Package epstopdf Info: Source file: <secondary.eps>
@@ -1041,8 +1040,8 @@ Package pdftex.def Info: secondary-eps-converted-to.pdf used on input line 153.
 (pdftex.def)             Requested size: 284.52756pt x 153.76938pt.
  [8
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/s
-econdary-eps-converted-to.pdf>] [9
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/secondary-eps
+-converted-to.pdf>] [9
 
 ]
 Package epstopdf Info: Source file: <io.eps>
@@ -1064,8 +1063,8 @@ Package pdftex.def Info: io-eps-converted-to.pdf used on input line 190.
 (pdftex.def)             Requested size: 142.26378pt x 116.16791pt.
  [10
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/i
-o-eps-converted-to.pdf>] [11
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/io-eps-conver
+ted-to.pdf>] [11
 
 ] [12
 
@@ -1091,8 +1090,8 @@ Package pdftex.def Info: mp0-eps-converted-to.pdf used on input line 262.
 (pdftex.def)             Requested size: 199.16928pt x 97.81337pt.
  [14
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/m
-p0-eps-converted-to.pdf>]
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/mp0-eps-conve
+rted-to.pdf>]
 Package epstopdf Info: Source file: <mp1.eps>
 (epstopdf)                    date: 2013-04-21 14:44:26
 (epstopdf)                    size: 389464 bytes
@@ -1112,8 +1111,8 @@ Package pdftex.def Info: mp1-eps-converted-to.pdf used on input line 277.
 (pdftex.def)             Requested size: 199.16928pt x 126.8188pt.
  [15
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/m
-p1-eps-converted-to.pdf>] [16
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/mp1-eps-conve
+rted-to.pdf>] [16
 
 ]
 Package epstopdf Info: Source file: <mp2.eps>
@@ -1135,8 +1134,8 @@ Package pdftex.def Info: mp2-eps-converted-to.pdf used on input line 311.
 (pdftex.def)             Requested size: 227.62204pt x 37.52547pt.
  [17
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/m
-p2-eps-converted-to.pdf>]
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/mp2-eps-conve
+rted-to.pdf>]
 Package epstopdf Info: Source file: <mp3.eps>
 (epstopdf)                    date: 2013-04-21 15:53:24
 (epstopdf)                    size: 534186 bytes
@@ -1156,8 +1155,8 @@ Package pdftex.def Info: mp3-eps-converted-to.pdf used on input line 326.
 (pdftex.def)             Requested size: 170.71652pt x 110.7341pt.
  [18
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/m
-p3-eps-converted-to.pdf>] [19
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/mp3-eps-conve
+rted-to.pdf>] [19
 
 ]
 Package epstopdf Info: Source file: <mp4.eps>
@@ -1179,8 +1178,8 @@ Package pdftex.def Info: mp4-eps-converted-to.pdf used on input line 359.
 (pdftex.def)             Requested size: 113.81102pt x 161.40619pt.
  [20
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/m
-p4-eps-converted-to.pdf>]
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/mp4-eps-conve
+rted-to.pdf>]
 Package epstopdf Info: Source file: <mp5.eps>
 (epstopdf)                    date: 2013-04-20 22:30:22
 (epstopdf)                    size: 445572 bytes
@@ -1200,15 +1199,14 @@ Package pdftex.def Info: mp5-eps-converted-to.pdf used on input line 374.
 (pdftex.def)             Requested size: 199.16928pt x 113.60124pt.
  [21
 
- <C:/Users/Jason/Dropbox/AppliedCryptoLabUCSB/rsa4096/slides - updated by Qin/m
-p5-eps-converted-to.pdf>] [22
+ <C:/Users/Jason/Documents/GitHub/RSA4096/slides - updated by Qin/mp5-eps-conve
+rted-to.pdf>] [22
 
 ] [23
 
 ] [24
 
-]
-[25
+] [25
 
 ]
 \tf@nav=\write6
@@ -1217,8 +1215,8 @@ p5-eps-converted-to.pdf>] [22
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 450.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 450.
 
-("C:\Users\Jason\Dropbox\AppliedCryptoLabUCSB\rsa4096\slides - updated by Qin\M
-odExp4096.aux")
+("C:\Users\Jason\Documents\GitHub\RSA4096\slides - updated by Qin\ModExp4096.au
+x")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 450.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 450.
 Package rerunfilecheck Info: File `ModExp4096.out' has not changed.
@@ -1232,12 +1230,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 450.
  ) 
 Here is how much of TeX's memory you used:
  15894 strings out of 493921
- 300114 string characters out of 3147283
+ 299958 string characters out of 3147283
  375382 words of memory out of 3000000
  18726 multiletter control sequences out of 15000+200000
  15574 words of font info for 58 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 49i,17n,59p,444b,553s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,17n,59p,508b,553s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKT
@@ -1249,7 +1247,7 @@ onts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ModExp4096.pdf (25 pages, 832128 bytes).
+Output written on ModExp4096.pdf (25 pages, 831984 bytes).
 PDF statistics:
  972 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)

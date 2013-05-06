@@ -1,0 +1,206 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\12.1sp1\ModExp with M4K 2\simulation\modelsim
+ve_mem
+Z1 I=NHV14L?KibSgl3f2<5Cn3
+Z2 VadCziSI0FY@V6hdYGg[5=1
+Z3 dC:\altera\12.1sp1\ModExp with M4K 2\simulation\modelsim
+Z4 w1367275749
+Z5 8C:/altera/12.1sp1/ModExp with M4K 2/e_mem.v
+Z6 FC:/altera/12.1sp1/ModExp with M4K 2/e_mem.v
+L0 3
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-vlog01compat -work work -O0
+Z9 !s92 -vlog01compat -work work {+incdir+C:/altera/12.1sp1/ModExp with M4K 2} -O0
+!i10b 1
+Z10 !s100 J>_mSeX7XcB2fN<dbh;mf2
+!s85 0
+Z11 !s108 1367467791.603000
+Z12 !s107 _parameter.v|C:/altera/12.1sp1/ModExp with M4K 2/e_mem.v|
+Z13 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/12.1sp1/ModExp with M4K 2|C:/altera/12.1sp1/ModExp with M4K 2/e_mem.v|
+!s101 -O0
+vm_mem
+Z14 I<Gj<Pj5M[7SaC00KloVzo0
+Z15 V>CK_l_z:QfXDWPMg>6ZLk1
+R3
+Z16 w1367275762
+Z17 8C:/altera/12.1sp1/ModExp with M4K 2/m_mem.v
+Z18 FC:/altera/12.1sp1/ModExp with M4K 2/m_mem.v
+L0 3
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z19 !s100 T_VBiDVT`o3dN7A1^@eOf1
+!s85 0
+Z20 !s108 1367467791.391000
+Z21 !s107 _parameter.v|C:/altera/12.1sp1/ModExp with M4K 2/m_mem.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/12.1sp1/ModExp with M4K 2|C:/altera/12.1sp1/ModExp with M4K 2/m_mem.v|
+!s101 -O0
+vModExp
+Z23 I^PT:93lWFL:1FW:4iYS_U2
+Z24 V@MkkFNO2IZN;E>QUgDGmY2
+R3
+Z25 w1367455491
+Z26 8C:/altera/12.1sp1/ModExp with M4K 2/ModExp.v
+Z27 FC:/altera/12.1sp1/ModExp with M4K 2/ModExp.v
+L0 5
+R7
+r1
+31
+R8
+R9
+Z28 n@mod@exp
+!i10b 1
+Z29 !s100 VQYgbeiL=bXFf1eR>LYHJ3
+!s85 0
+Z30 !s108 1367467790.882000
+Z31 !s107 _parameter.v|C:/altera/12.1sp1/ModExp with M4K 2/ModExp.v|
+Z32 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/12.1sp1/ModExp with M4K 2|C:/altera/12.1sp1/ModExp with M4K 2/ModExp.v|
+!s101 -O0
+vModExp_tb
+!i10b 1
+!s100 ^ja4jIJo=zkH@ACT6@C6i2
+In3HO`2N>8_KQ4C;3bJJ6Y0
+V]<cc;ZiXclDcKe;D2iXC?2
+R3
+w1367451977
+8ModExp_tb.v
+FModExp_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1367467808.773000
+!s107 ModExp_tb.v|
+!s90 -reportprogress|300|ModExp_tb.v|
+!s101 -O0
+o-O0
+n@mod@exp_tb
+vmul_add
+Z33 IM4^FfWF3Xm6BYGO>n0eVG3
+Z34 VYNQ>]7d6`mmSzGjBCCPO=0
+R3
+Z35 w1367086364
+Z36 8C:/altera/12.1sp1/ModExp with M4K 2/mul_add.v
+Z37 FC:/altera/12.1sp1/ModExp with M4K 2/mul_add.v
+L0 4
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z38 !s100 ;:hY@le7iMa[zFj9gO1B13
+!s85 0
+Z39 !s108 1367467790.685000
+Z40 !s107 _parameter.v|C:/altera/12.1sp1/ModExp with M4K 2/mul_add.v|
+Z41 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/12.1sp1/ModExp with M4K 2|C:/altera/12.1sp1/ModExp with M4K 2/mul_add.v|
+!s101 -O0
+vn_mem
+Z42 In41RRRaEYoRICJQaPOdPn1
+Z43 Vb1k0DFoeKJPGP2>A537lj0
+R3
+Z44 w1367275737
+Z45 8C:/altera/12.1sp1/ModExp with M4K 2/n_mem.v
+Z46 FC:/altera/12.1sp1/ModExp with M4K 2/n_mem.v
+L0 3
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z47 !s100 :7k@MRa:Sz:GDi^[22n]83
+!s85 0
+Z48 !s108 1367467790.431000
+Z49 !s107 _parameter.v|C:/altera/12.1sp1/ModExp with M4K 2/n_mem.v|
+Z50 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/12.1sp1/ModExp with M4K 2|C:/altera/12.1sp1/ModExp with M4K 2/n_mem.v|
+!s101 -O0
+vnprime0_mem
+Z51 IB^?A@P;YY2QLWeeInE_oW2
+Z52 V0AZDAeoo_ZCR;Nb;II67a1
+R3
+Z53 w1367276372
+Z54 8C:/altera/12.1sp1/ModExp with M4K 2/nprime0_mem.v
+Z55 FC:/altera/12.1sp1/ModExp with M4K 2/nprime0_mem.v
+L0 3
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z56 !s100 2QWB^g>hH:ce_H=5dmCWM1
+!s85 0
+Z57 !s108 1367467790.239000
+Z58 !s107 _parameter.v|C:/altera/12.1sp1/ModExp with M4K 2/nprime0_mem.v|
+Z59 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/12.1sp1/ModExp with M4K 2|C:/altera/12.1sp1/ModExp with M4K 2/nprime0_mem.v|
+!s101 -O0
+vr_mem
+Z60 I?<oj5_hkO@]0keRTV:Mm^0
+Z61 V]k]f;l9H:fQQmzS=]V0H^3
+R3
+Z62 w1367275758
+Z63 8C:/altera/12.1sp1/ModExp with M4K 2/r_mem.v
+Z64 FC:/altera/12.1sp1/ModExp with M4K 2/r_mem.v
+L0 3
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z65 !s100 _YIM6:G2U]3W99N1N2J?f0
+!s85 0
+Z66 !s108 1367467789.920000
+Z67 !s107 _parameter.v|C:/altera/12.1sp1/ModExp with M4K 2/r_mem.v|
+Z68 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/12.1sp1/ModExp with M4K 2|C:/altera/12.1sp1/ModExp with M4K 2/r_mem.v|
+!s101 -O0
+vres_mem
+Z69 IEQDI:cmi[@K>=6JTd3;Ed0
+Z70 V9b?dSmMXV2IX`j_DcdVoi2
+R3
+Z71 w1367275972
+Z72 8C:/altera/12.1sp1/ModExp with M4K 2/res_mem.v
+Z73 FC:/altera/12.1sp1/ModExp with M4K 2/res_mem.v
+L0 3
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z74 !s100 flYT2[JmZOUbTeL9knZ;=3
+!s85 0
+Z75 !s108 1367467789.738000
+Z76 !s107 _parameter.v|C:/altera/12.1sp1/ModExp with M4K 2/res_mem.v|
+Z77 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/12.1sp1/ModExp with M4K 2|C:/altera/12.1sp1/ModExp with M4K 2/res_mem.v|
+!s101 -O0
+vt_mem
+Z78 IDY?BibHjRPC34XoO^9zn<1
+Z79 VnPd[JIV>;IdiZkP3cg21C2
+R3
+Z80 w1367275754
+Z81 8C:/altera/12.1sp1/ModExp with M4K 2/t_mem.v
+Z82 FC:/altera/12.1sp1/ModExp with M4K 2/t_mem.v
+L0 3
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z83 !s100 _L9]0l@BTWTKUEIP7c<J40
+!s85 0
+Z84 !s108 1367467789.362000
+Z85 !s107 _parameter.v|C:/altera/12.1sp1/ModExp with M4K 2/t_mem.v|
+Z86 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/12.1sp1/ModExp with M4K 2|C:/altera/12.1sp1/ModExp with M4K 2/t_mem.v|
+!s101 -O0

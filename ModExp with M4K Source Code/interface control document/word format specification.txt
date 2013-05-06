@@ -1,0 +1,9 @@
+Interface Control Document follows word format requirements below:
+
+1. 1.5 paragraph row length for all lines;
+
+2. all figures are 60% size of the original png which converted from vsd;
+
+3. use math type for all meaning for math variables, equations, etc;
+
+4. font type is Calibri, for all characters;

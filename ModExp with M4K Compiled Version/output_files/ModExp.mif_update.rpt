@@ -1,0 +1,81 @@
+MIF/HEX Update report for ModExp
+Sun May 05 16:18:43 2013
+Quartus II 32-bit Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; MIF/HEX Update Summary                                        ;
++-----------------------+---------------------------------------+
+; MIF/HEX Update Status ; Successful - Sun May 05 16:18:43 2013 ;
+; Revision Name         ; ModExp                                ;
+; Top-level Entity Name ; ModExp                                ;
+; Family                ; Cyclone II                            ;
+; Device                ; EP2C50F484C6                          ;
++-----------------------+---------------------------------------+
+
+
++----------------------------------------------------+
+; MIF/HEX Update Processed Files                     ;
++----------------------------------------------------+
+; File Name                                          ;
++----------------------------------------------------+
+; C:/altera/12.1sp1/ModExp with M4K 2/emem.mif       ;
+; C:/altera/12.1sp1/ModExp with M4K 2/mmem.mif       ;
+; C:/altera/12.1sp1/ModExp with M4K 2/nmem.mif       ;
+; C:/altera/12.1sp1/ModExp with M4K 2/nprime0mem.mif ;
+; C:/altera/12.1sp1/ModExp with M4K 2/rmem.mif       ;
+; C:/altera/12.1sp1/ModExp with M4K 2/tmem.mif       ;
++----------------------------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit MIF/HEX Update
+    Info: Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sun May 05 16:18:36 2013
+Info: Command: quartus_cdb ModExp -c ModExp --update_mif
+Info (39024): Processed the following Memory Initialization File(s)
+    Info (39025): Processed Memory Initialization File C:/altera/12.1sp1/ModExp with M4K 2/emem.mif
+    Info (39025): Processed Memory Initialization File C:/altera/12.1sp1/ModExp with M4K 2/mmem.mif
+    Info (39025): Processed Memory Initialization File C:/altera/12.1sp1/ModExp with M4K 2/nmem.mif
+    Info (39025): Processed Memory Initialization File C:/altera/12.1sp1/ModExp with M4K 2/nprime0mem.mif
+    Info (39025): Processed Memory Initialization File C:/altera/12.1sp1/ModExp with M4K 2/rmem.mif
+    Info (39025): Processed Memory Initialization File C:/altera/12.1sp1/ModExp with M4K 2/tmem.mif
+Info: Quartus II 32-bit MIF/HEX Update was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 426 megabytes
+    Info: Processing ended: Sun May 05 16:18:43 2013
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:06
+
+

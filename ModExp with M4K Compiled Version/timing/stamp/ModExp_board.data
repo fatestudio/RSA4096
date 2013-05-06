@@ -1,0 +1,442 @@
+/*
+ Copyright (C) 1991-2012 Altera Corporation
+ Your use of Altera Corporation's design tools, logic functions 
+ and other software and tools, and its AMPP partner logic 
+ functions, and any output files from any of the foregoing 
+ (including device programming or simulation files), and any 
+ associated documentation or information are expressly subject 
+ to the terms and conditions of the Altera Program License 
+ Subscription Agreement, Altera MegaCore Function License 
+ Agreement, or other applicable license agreement, including, 
+ without limitation, that your use is for the sole purpose of 
+ programming logic devices manufactured by Altera and sold by 
+ Altera or its authorized distributors.  Please refer to the 
+ applicable agreement for further details.
+*/
+MODELDATA
+/*MODELDATA HEADER*/
+/*
+ This file contains Slow Corner delays for the design using part EP2C50F484C6
+ with speed grade 6, core voltage Auto, and temperature 2147483647 Celsius
+
+*/
+DESIGN "ModExp";
+TIMESCALE "1ns";
+
+
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_reset__clock__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("11.770");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("11.770");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_reset__clock__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.179");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.179");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[0]__delay:
+CELL_RISE( scalar ) {
+VALUES ("10.826");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("10.826");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[1]__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.945");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.945");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[2]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.742");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.742");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[3]__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.078");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.078");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[4]__delay:
+CELL_RISE( scalar ) {
+VALUES ("11.408");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("11.408");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[5]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.168");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.168");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[6]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.281");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.281");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[7]__delay:
+CELL_RISE( scalar ) {
+VALUES ("10.133");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("10.133");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[8]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.917");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.917");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[9]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.227");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.227");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[10]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.035");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.035");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[11]__delay:
+CELL_RISE( scalar ) {
+VALUES ("10.476");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("10.476");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[12]__delay:
+CELL_RISE( scalar ) {
+VALUES ("10.169");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("10.169");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[13]__delay:
+CELL_RISE( scalar ) {
+VALUES ("12.003");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("12.003");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[14]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.507");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.507");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[15]__delay:
+CELL_RISE( scalar ) {
+VALUES ("10.691");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("10.691");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[16]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.357");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.357");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[17]__delay:
+CELL_RISE( scalar ) {
+VALUES ("11.334");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("11.334");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[18]__delay:
+CELL_RISE( scalar ) {
+VALUES ("10.957");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("10.957");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[19]__delay:
+CELL_RISE( scalar ) {
+VALUES ("11.207");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("11.207");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[20]__delay:
+CELL_RISE( scalar ) {
+VALUES ("11.173");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("11.173");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[21]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.899");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.899");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[22]__delay:
+CELL_RISE( scalar ) {
+VALUES ("10.152");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("10.152");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[23]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.324");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.324");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[24]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.834");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.834");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[25]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.628");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.628");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[26]__delay:
+CELL_RISE( scalar ) {
+VALUES ("11.316");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("11.316");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[27]__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.507");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.507");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[28]__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.582");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.582");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[29]__delay:
+CELL_RISE( scalar ) {
+VALUES ("10.668");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("10.668");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[30]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.862");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.862");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clock__res_out[31]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.898");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.898");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

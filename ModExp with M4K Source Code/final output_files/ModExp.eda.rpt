@@ -1,0 +1,139 @@
+EDA Netlist Writer report for ModExp
+Sun May 05 15:38:56 2013
+Quartus II 32-bit Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. Board-Level Settings
+  6. Board-Level Generated Files
+  7. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                                    ;
++---------------------------------------+---------------------------------------+
+; EDA Netlist Writer Status             ; Successful - Sun May 05 15:38:56 2013 ;
+; Revision Name                         ; ModExp                                ;
+; Top-level Entity Name                 ; ModExp                                ;
+; Family                                ; Cyclone II                            ;
+; Simulation Files Creation             ; Successful                            ;
+; Board Symbol Files Creation           ; Successful                            ;
+; Board Signal Integrity Files Creation ; Successful                            ;
+; Board Timing Analysis Files Creation  ; Successful                            ;
++---------------------------------------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate netlist for functional simulation only                                                   ; Off                       ;
+; Time scale                                                                                        ; 1 ps                      ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+
+
++---------------------------------------------------------------------------+
+; Simulation Generated Files                                                ;
++---------------------------------------------------------------------------+
+; Generated Files                                                           ;
++---------------------------------------------------------------------------+
+; C:/altera/12.1sp1/ModExp with M4K 2/simulation/modelsim/ModExp.vo         ;
+; C:/altera/12.1sp1/ModExp with M4K 2/simulation/modelsim/ModExp_fast.vo    ;
+; C:/altera/12.1sp1/ModExp with M4K 2/simulation/modelsim/ModExp_v.sdo      ;
+; C:/altera/12.1sp1/ModExp with M4K 2/simulation/modelsim/ModExp_v_fast.sdo ;
++---------------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Board-Level Settings                     ;
++-------------------------------+----------+
+; Option                        ; Setting  ;
++-------------------------------+----------+
+; Board Symbol Format           ; ViewDraw ;
+; Board Signal Integrity Format ; IBIS     ;
+; Board Timing Analysis Format  ; STAMP    ;
++-------------------------------+----------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Board-Level Generated Files                                                                                                       ;
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                   ;
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Board Symbol                                                                                                                      ;
+;     C:/altera/12.1sp1/ModExp with M4K 2/symbols/viewdraw/ModExp.xml                                                               ;
+; Board Signal Integrity                                                                                                            ;
+;     C:/altera/12.1sp1/ModExp with M4K 2/board/ibis/ModExp.ibs                                                                     ;
+; Board Timing Analysis                                                                                                             ;
+;     C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp/C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_6_board_slow.mod    ;
+;     C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp/C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_6_board_slow.data   ;
+;     C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp/C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_min_board_fast.mod  ;
+;     C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp/C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_min_board_fast.data ;
+;     C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp/C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_board.mod           ;
+;     C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp/C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_board.data          ;
++-----------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit EDA Netlist Writer
+    Info: Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sun May 05 15:38:26 2013
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off ModExp -c ModExp
+Info (204026): Generated files "ModExp.vo", "ModExp_fast.vo", "ModExp_v.sdo" and "ModExp_v_fast.sdo" in directory "C:/altera/12.1sp1/ModExp with M4K 2/simulation/modelsim/" for EDA simulation tool
+Info (199047): Generated files "C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_6_board_slow.mod" and "C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_6_board_slow.data"
+Info (199047): Generated files "C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_min_board_fast.mod" and "C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_min_board_fast.data"
+Info (199047): Generated files "C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_board.mod" and "C:/altera/12.1sp1/ModExp with M4K 2/timing/stamp//ModExp_board.data"
+Info (197003): Model for 2 configuration pin(s) is not included in the IBIS output file
+    Info (197004): Pin "~nCSO~" has no supported IBIS model
+    Info (197004): Pin "~ASDO~" has no supported IBIS model
+Info (199050): Generated IBIS Output File C:/altera/12.1sp1/ModExp with M4K 2/board/ibis/ModExp.ibs for board level analysis
+Warning (199064): Device family does not support board-level Boundary-Scan Description Language file generation
+Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 600 megabytes
+    Info: Processing ended: Sun May 05 15:38:57 2013
+    Info: Elapsed time: 00:00:31
+    Info: Total CPU time (on all processors): 00:00:29
+
+
