@@ -1,0 +1,11 @@
+-- Python - Generated Memory Initialization File
+WIDTH = 32;
+DEPTH = 2;
+
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+
+CONTENT BEGIN
+	0	:	a3b18a91;
+	1	: 	3bea2df6;
+END;

@@ -1,0 +1,120 @@
+# Reading K:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ModExp_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying K:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied K:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+K:/altera/12.1sp1/ModExp\ 2.0\ -\ copied {K:/altera/12.1sp1/ModExp 2.0 - copied/_parameter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# vlog -vlog01compat -work work +incdir+K:/altera/12.1sp1/ModExp\ 2.0\ -\ copied {K:/altera/12.1sp1/ModExp 2.0 - copied/t_mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module t_mem
+# ** Warning: K:/altera/12.1sp1/ModExp 2.0 - copied/t_mem.v(18): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	t_mem
+# vlog -vlog01compat -work work +incdir+K:/altera/12.1sp1/ModExp\ 2.0\ -\ copied {K:/altera/12.1sp1/ModExp 2.0 - copied/r_mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module r_mem
+# ** Warning: K:/altera/12.1sp1/ModExp 2.0 - copied/r_mem.v(18): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	r_mem
+# vlog -vlog01compat -work work +incdir+K:/altera/12.1sp1/ModExp\ 2.0\ -\ copied {K:/altera/12.1sp1/ModExp 2.0 - copied/nprime0_mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module nprime0_mem
+# 
+# Top level modules:
+# 	nprime0_mem
+# vlog -vlog01compat -work work +incdir+K:/altera/12.1sp1/ModExp\ 2.0\ -\ copied {K:/altera/12.1sp1/ModExp 2.0 - copied/n_mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module n_mem
+# 
+# Top level modules:
+# 	n_mem
+# vlog -vlog01compat -work work +incdir+K:/altera/12.1sp1/ModExp\ 2.0\ -\ copied {K:/altera/12.1sp1/ModExp 2.0 - copied/mul_add.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# vlog -vlog01compat -work work +incdir+K:/altera/12.1sp1/ModExp\ 2.0\ -\ copied {K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp
+# 
+# Top level modules:
+# 	ModExp
+# 
+do ModExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.mul_add
+# Loading work.r_mem
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.t_mem
+# Loading work.nprime0_mem
+# Loading work.n_mem
+# ** Warning: (vsim-3017) K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v(62): [TFMPC] - Too few port connections. Expected 4, found 3.
+# 
+#         Region: /ModExp_tb/modexp0/nprime0_mem0
+# ** Warning: (vsim-3722) K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v(62): [TFMPC] - Missing connection for port 'data'.
+# 
+# ** Warning: (vsim-3017) K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v(63): [TFMPC] - Too few port connections. Expected 4, found 3.
+# 
+#         Region: /ModExp_tb/modexp0/n_mem0
+# ** Warning: (vsim-3722) K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v(63): [TFMPC] - Missing connection for port 'data'.
+# 
+# Warning : Address pointed at port A is out of bound!
+# Time: 825  Instance: ModExp_tb.modexp0.nprime0_mem0.altsyncram_component
+# Warning : Address pointed at port A is out of bound!
+# Time: 825  Instance: ModExp_tb.modexp0.nprime0_mem0.altsyncram_component
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+# Warning : Address pointed at port A is out of bound!
+# Time: 10002765  Instance: ModExp_tb.modexp0.nprime0_mem0.altsyncram_component
+# Warning : Address pointed at port A is out of bound!
+# Time: 10002765  Instance: ModExp_tb.modexp0.nprime0_mem0.altsyncram_component
+# Exp_state=ES0	In State S6!
+# e_in[          0][          3] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           3
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!

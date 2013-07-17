@@ -1,0 +1,146 @@
+m255
+K3
+13
+cModel Technology
+Z0 dK:\altera\12.1sp1\ModExp 2.0 - copied\simulation\modelsim
+vModExp
+Z1 I9hzcDn@=MSTE;oKhlZQG?0
+Z2 VhXa:;3X4GQfP8Lk;Mhb5i3
+Z3 dK:\altera\12.1sp1\ModExp 2.0 - copied\simulation\modelsim
+Z4 w1373734269
+Z5 8K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v
+Z6 FK:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v
+L0 5
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-vlog01compat -work work -O0
+Z9 !s92 -vlog01compat -work work {+incdir+K:/altera/12.1sp1/ModExp 2.0 - copied} -O0
+Z10 n@mod@exp
+!i10b 1
+Z11 !s100 `5O=i;j59JR8@okY^KiM61
+!s85 0
+Z12 !s108 1373747553.339000
+Z13 !s107 K:/altera/12.1sp1/ModExp 2.0 - copied/_parameter.v|K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+K:/altera/12.1sp1/ModExp 2.0 - copied|K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v|
+!s101 -O0
+vModExp_tb
+!i10b 1
+!s100 [E9Cg2zhcTgHULb=WSo[00
+I7CKog5OLO_>o@zG1dK:Am1
+V]<cc;ZiXclDcKe;D2iXC?2
+R3
+w1373732225
+8ModExp_tb.v
+FModExp_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1373747692.432000
+!s107 _parameter.v|ModExp_tb.v|
+!s90 -reportprogress|300|ModExp_tb.v|
+!s101 -O0
+o-O0
+n@mod@exp_tb
+vmul_add
+Z15 IJmJ2@62NHPb<Iimb7X4Ah1
+Z16 V5PW`[o9zh3oGa[:D:Q=Q12
+R3
+Z17 w1373561584
+Z18 8K:/altera/12.1sp1/ModExp 2.0 - copied/mul_add.v
+Z19 FK:/altera/12.1sp1/ModExp 2.0 - copied/mul_add.v
+L0 4
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z20 !s100 oi51TC3ASPMm9AS`cZ1Sc0
+!s85 0
+Z21 !s108 1373747553.170000
+Z22 !s107 K:/altera/12.1sp1/ModExp 2.0 - copied/_parameter.v|K:/altera/12.1sp1/ModExp 2.0 - copied/mul_add.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+K:/altera/12.1sp1/ModExp 2.0 - copied|K:/altera/12.1sp1/ModExp 2.0 - copied/mul_add.v|
+!s101 -O0
+vn_mem
+Z24 Iie@_K]LQRZ:eVmYP7hRfO0
+Z25 Vb1k0DFoeKJPGP2>A537lj0
+R3
+Z26 w1373563411
+Z27 8K:/altera/12.1sp1/ModExp 2.0 - copied/n_mem.v
+Z28 FK:/altera/12.1sp1/ModExp 2.0 - copied/n_mem.v
+L0 3
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z29 !s100 eZ:JS8gZ1lWFi1``o>0YP2
+!s85 0
+Z30 !s108 1373747552.999000
+Z31 !s107 K:/altera/12.1sp1/ModExp 2.0 - copied/_parameter.v|K:/altera/12.1sp1/ModExp 2.0 - copied/n_mem.v|
+Z32 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+K:/altera/12.1sp1/ModExp 2.0 - copied|K:/altera/12.1sp1/ModExp 2.0 - copied/n_mem.v|
+!s101 -O0
+vnprime0_mem
+Z33 IBIR5l[k7fZ@2H[_UdMWN[3
+Z34 VDZNGbj=63=zCUBnaFk@U51
+R3
+Z35 w1373582832
+Z36 8K:/altera/12.1sp1/ModExp 2.0 - copied/nprime0_mem.v
+Z37 FK:/altera/12.1sp1/ModExp 2.0 - copied/nprime0_mem.v
+L0 3
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z38 !s100 PeYVgzocmGf7QNaalGUMd1
+!s85 0
+Z39 !s108 1373747552.799000
+Z40 !s107 K:/altera/12.1sp1/ModExp 2.0 - copied/_parameter.v|K:/altera/12.1sp1/ModExp 2.0 - copied/nprime0_mem.v|
+Z41 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+K:/altera/12.1sp1/ModExp 2.0 - copied|K:/altera/12.1sp1/ModExp 2.0 - copied/nprime0_mem.v|
+!s101 -O0
+vr_mem
+Z42 IdhdNAVbU^hgT?jDV<Y1JO2
+Z43 V]k]f;l9H:fQQmzS=]V0H^3
+R3
+R26
+Z44 8K:/altera/12.1sp1/ModExp 2.0 - copied/r_mem.v
+Z45 FK:/altera/12.1sp1/ModExp 2.0 - copied/r_mem.v
+L0 3
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z46 !s100 7DSUdO9VOnmLSA?KlS_7?0
+!s85 0
+Z47 !s108 1373747552.597000
+Z48 !s107 K:/altera/12.1sp1/ModExp 2.0 - copied/_parameter.v|K:/altera/12.1sp1/ModExp 2.0 - copied/r_mem.v|
+Z49 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+K:/altera/12.1sp1/ModExp 2.0 - copied|K:/altera/12.1sp1/ModExp 2.0 - copied/r_mem.v|
+!s101 -O0
+vt_mem
+Z50 IJ`:5c:Z@Uha3fAG6N=nd`2
+Z51 VnPd[JIV>;IdiZkP3cg21C2
+R3
+Z52 w1373563360
+Z53 8K:/altera/12.1sp1/ModExp 2.0 - copied/t_mem.v
+Z54 FK:/altera/12.1sp1/ModExp 2.0 - copied/t_mem.v
+L0 3
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z55 !s100 lXVcDO^g7^i08UIP1E5]K2
+!s85 0
+Z56 !s108 1373747552.261000
+Z57 !s107 K:/altera/12.1sp1/ModExp 2.0 - copied/_parameter.v|K:/altera/12.1sp1/ModExp 2.0 - copied/t_mem.v|
+Z58 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+K:/altera/12.1sp1/ModExp 2.0 - copied|K:/altera/12.1sp1/ModExp 2.0 - copied/t_mem.v|
+!s101 -O0

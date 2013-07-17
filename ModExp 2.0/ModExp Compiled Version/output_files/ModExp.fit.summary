@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Jul 13 13:05:55 2013
+Quartus II 64-Bit Version : 12.1 Build 243 01/31/2013 SP 1 SJ Web Edition
+Revision Name : ModExp
+Top-level Entity Name : ModExp
+Family : Cyclone II
+Device : EP2C50F484C6
+Timing Models : Final
+Total logic elements : 42,146 / 50,528 ( 83 % )
+    Total combinational functions : 33,317 / 50,528 ( 66 % )
+    Dedicated logic registers : 27,799 / 50,528 ( 55 % )
+Total registers : 27799
+Total pins : 206 / 294 ( 70 % )
+Total virtual pins : 0
+Total memory bits : 16,448 / 594,432 ( 3 % )
+Embedded Multiplier 9-bit elements : 32 / 172 ( 19 % )
+Total PLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,47 @@
+How I compile ModExp project:
+Settings - ModExp
+
+Compilation Process Settings
+1. Early timeing estimate mode
+	Realistic	(average case)
+
+2. Physical Synthesis Optimizations
+	yes
+	yes
+	Extra
+	yes
+	yes
+	yes
+	yes
+
+3. EDA Tool Settings
+	Design Entry / Synthesis:	ViewDraw
+	Simulation: 	ModelSim-Altera
+	Formal Verification:	None (Conformal not work for Cyclone 2)
+	Board-Level:
+		Timing:	STAMP
+		Symbol:	ViewDraw
+		Signal Integrity:	IBIS (HSPICE not work for Cyclone 2)
+		Boundary Scan:	BSDL
+
+4. Analysis & Synthesis	
+	Optimization Tecnique:	Speed
+	Timing-Driven Synthesis: yes
+	Power-Up Don't Care: yes
+	Perform WYSIWYG primitive resynthesis: yes
+	PowerPlay: Normal compilation
+
+5. Verilog HDL Input: 
+	Verilog - 2001
+
+6. Fitter Settings:
+	yes
+	yes
+	Normal compilation
+	Standard Fit
+	
+
+
+
+
+

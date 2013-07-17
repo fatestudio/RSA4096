@@ -1,0 +1,22 @@
+
+1- The performance figures are way less than our requirement, we were looking for performance figures in the region of 1.2 ms for full 4096-bit modular exponentiation operation, currently its  over 5.4 seconds (as after P&R the core is running at 68MHz). I totally agree with you that the target FPGA chip is an old but I believe we still need to investigate more if we can optimize the core further. I'm not sure if we can implement exponentiation algorithm that support different window sizes at exponentiation level as we already occupied 80% of total logical elements.
+Comment: 	1. M-ary window? First make a draft to see the improvement that we can get, the extra elements we will use..
+			2. Many other optimization options on book. Again need evaluation before doing.
+			
+2- The performance figures also did not include the transfer of primary operands (i.e. m, e) from/to the core (i.e. communication overhead).
+Comment:	1. what is performance figure? what is the meaning of this question?
+
+3- The core can't at least load primary operands at run-time. We would expect an address/data bus and control signals to be available for interfacing. We expected the core to be a stand-alone module that can be configured through address/data bus on run-time not through JTAG In-System Memory Content Editor.
+Comment:	1. No idea...
+
+4- Should there not be a start/activate signal available to start the core (ModExp process) once the primary data has been loaded into the memory?
+Comment:	1. Just add a start signal for the starting of RSA state... Now we are using a state machine. Once the load state finished, the RSA state starts automatically.   
+
+5- Should there not be a status signal available to indicate when the core (ModExp process) is finished and the data is valid in the 'C' memory block or output port?
+Comment:	1. The same as 4- 	Easy.
+
+6- Secondary operands (i.e. r, t, n0') are algorithm dependent so we would appreciate if you can provide us with code as suggested to calculate them inside the core's code from n.
+Comment:	1. This can be done. 
+
+7) In terms of the development board for Cyclone II, as I mentioned to you earlier during our first Skype meeting we actually upgrading the firmware of an existing system that has this specific FPGA chip attached to it, therefore we don't have a development board as we work directly on the FPGA of the system. Also, we have to stick with this specific FPGA chip (i.e. Cyclone II EP2C50F484C6) as the costs associated to upgrading/changing the chip are very expensive.
+Comment:	1. Make sure we compiled and synthesized on Cyclone II EP2C50F484C6. 
